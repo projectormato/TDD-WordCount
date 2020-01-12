@@ -17,4 +17,8 @@ class WordCountTest {
         assertEquals(WordCount().calc("hello"), mapOf("hello" to 1))
     }
 
+    @Test
+    fun inputTwoHello() {
+        assertEquals(WordCount().calc("hello hello"), mapOf("hello" to 2))
+    }
 }
