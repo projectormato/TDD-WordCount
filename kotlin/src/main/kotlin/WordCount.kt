@@ -7,11 +7,7 @@ class WordCount {
         }
         val result = mutableMapOf<String, Int>()
         for (s in input.split(" ")) {
-            if (s == "hello") {
-                result[s] = 1
-            } else if (s == "world") {
-                result[s] = 1
-            }
+            result[s] = 1
         }
         return result
     }
