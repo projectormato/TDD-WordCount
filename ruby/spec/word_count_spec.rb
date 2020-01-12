@@ -8,17 +8,14 @@ end
 
 RSpec.describe 'Word Count' do
   it 'input one hello' do
-    expected = {'hello' => 1}
-    expect(WordCount.new.calc('hello')).to eq expected
+    expect(WordCount.new.calc('hello')).to eq({'hello' => 1})
   end
 
   it 'input two hello' do
-    expected = {'hello' => 2}
-    expect(WordCount.new.calc('hello hello')).to eq expected
+    expect(WordCount.new.calc('hello hello')).to eq({'hello' => 2})
   end
 
   it 'input hello world' do
-    expected = {'hello' => 1, 'world' => 1}
-    expect(WordCount.new.calc('hello world')).to eq expected
+    expect(WordCount.new.calc('hello world')).to eq({'hello' => 1, 'world' => 1})
   end
 end
