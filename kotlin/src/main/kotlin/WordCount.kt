@@ -1,4 +1,4 @@
-package main.java
+package main
 
 class WordCount {
     fun calc(input: String): Map<String, Int> {

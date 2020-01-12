@@ -1,6 +1,6 @@
-package test.java
+package test
 
-import main.java.WordCount
+import main.WordCount
 import org.junit.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
