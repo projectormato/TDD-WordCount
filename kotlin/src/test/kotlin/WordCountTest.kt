@@ -8,12 +8,12 @@ import kotlin.test.assertTrue
 class WordCountTest {
 
     @Test
-    fun SampleTest() {
+    fun sampleTest() {
         assertTrue(true)
     }
 
     @Test
-    fun InputIneHello() {
+    fun inputOneHello() {
         assertEquals(WordCount().calc("hello"), mapOf("hello" to 1))
     }
 
